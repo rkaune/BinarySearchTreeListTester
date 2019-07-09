@@ -3,7 +3,7 @@
  *
  * Richard Kaune T00641439
  * COMP 2231_SW2 Assignment 4 Question 2
- * This is a linked implementation of a balance tree method using the brute
+ * This is a linked implementation of a balanced tree using the brute
  * force method.(inorder traversal with binary partitioning)
 */
 

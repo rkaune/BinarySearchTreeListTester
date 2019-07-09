@@ -3,8 +3,8 @@
  *
  * Richard Kaune T00641439
  * COMP 2231_SW2 Assignment 4 Question 2
- * This is the client code for a linked implementation of a balance tree 
- * method using the brute force method.
+ * This is the client code for a linked implementation of a balanced tree 
+ * using the brute force method.
 */
 
 package jsjf;

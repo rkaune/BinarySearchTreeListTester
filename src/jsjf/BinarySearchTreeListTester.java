@@ -27,17 +27,22 @@ public class BinarySearchTreeListTester {
         // the sorted array
         int array[] = { 10,20,30,40,50,60,70,80,90,100 };
         
+        // output the array to screen
+        System.out.println("Array before building tree: ");
+        for (int i=0;i<array.length;i++)
+            System.out.print(array[i]+ " ");
+        System.out.println();
+        
         // the brute force method of constructing a BSTL from the partition
         treeRoot = treeRoot.createBST(array, 0, array.length-1);
         
         // inorder traversal of BSTL
         System.out.println("The elements in the binary tree in order are: ");
         
-        // this is not working...
+        // this is not working... not sure why?
         Iterator<Integer> itr = treeRoot.iteratorInOrder();
         while(itr.hasNext())
-            System.out.print(itr.next()+ "*");
-        System.out.println();   
+            System.out.print(itr.next()+ "*");   
         
         // static inorder traversal without Iterator.
         inorder(treeRoot);

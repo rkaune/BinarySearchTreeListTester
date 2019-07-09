@@ -146,7 +146,7 @@ implements ListADT<T>, OrderedListADT<T>, Iterable<T>
 	}
         
         /**
-         * Gets the in data from the array
+         * Gets the int data from the array
          * @return 
          */
         public int getData() {
